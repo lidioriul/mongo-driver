@@ -70,6 +70,7 @@ public class EstudoMongoApp {
             books.add(Integer.valueOf(book));
         }
         p.setBooks(books);
+
         personDAO.createPerson(p);
     }
 
